@@ -1,0 +1,73 @@
+column,description,missing_2019,missing_2022
+survey_year,"2019 = Ghana MIS (development), 2022 = Ghana DHS (test)",0,0
+cluster,DHS cluster number (hv001),0,0
+cluster_uid,"Survey year + cluster, unique across surveys",0,0
+household,Household number (hv002),0,0
+line,Line number of child in household (hvidx),0,0
+weight,"DHS household sample weight (hv005/1,000,000), for prevalence estimates",0,0
+psu,Primary sampling unit (hv021),0,0
+strata,Sampling stratum (hv022),0,0
+interview_month,Month of interview (hv006),0,0
+interview_year,Year of interview (hv007),0,0
+malaria_rdt,"OUTCOME: malaria rapid diagnostic test, 1 positive, 0 negative (hml35)",0,0
+malaria_microscopy,"Malaria by blood smear microscopy, 1/0, for sensitivity analysis (hml32)",3,0
+region_original,"Region as recorded in that survey (10 in 2019, 16 in 2022)",0,0
+region10,Region harmonised to the 10 pre-2019 regions,0,0
+urban,"1 urban, 0 rural (hv025)",0,0
+altitude_m,Cluster altitude in metres (hv040),60,0
+age_months,Child age in months (hc1),0,0
+female,"1 female, 0 male (hv104)",0,0
+slept_under_itn,Child slept under an insecticide-treated net last night (hml12),0,0
+slept_under_any_net,Child slept under any net last night (hml12),0,0
+mother_education,"Mother's highest education (hc61), harmonised: no education, primary, secondary (2019 middle/JSS/JHS and secondary/SSS/SHS combined), higher, not in household",0,0
+wealth_quintile,"DHS wealth quintile, 1 poorest to 5 richest (hv270)",0,0
+household_size,Household members (hv009),0,0
+children_under5,Children under 5 in household (hv014),0,0
+nets_per_person,"Mosquito nets per household member (hml1/hv009, capped at 3)",104,0
+electricity,Household has electricity (hv206),0,0
+sprayed_irs_12m,Dwelling sprayed against mosquitoes in last 12 months (hv253),0,0
+sanitation_jmp,"WHO/UNICEF JMP sanitation ladder from toilet type and sharing (hv205, hv225)",0,0
+sanitation_score,"Sanitation ladder as number: 0 open defecation, 1 unimproved, 2 limited, 3 basic",0,0
+water_jmp,WHO/UNICEF JMP drinking water category (hv201),0,0
+floor_finished,Finished floor material (hv213),0,0
+wall_finished,Finished wall material (hv214),0,0
+roof_finished,Finished roof material (hv215),0,0
+housing_finished_count,"Number of finished housing materials, 0 to 3",0,0
+gc_aridity,"DHS Geospatial Covariate at cluster location (aridity), 2015 values for both surveys",340,0
+gc_mean_temperature,"DHS Geospatial Covariate at cluster location (mean temperature), 2015 values for both surveys",340,0
+gc_maximum_temperature,"DHS Geospatial Covariate at cluster location (maximum temperature), 2015 values for both surveys",340,0
+gc_minimum_temperature,"DHS Geospatial Covariate at cluster location (minimum temperature), 2015 values for both surveys",340,0
+gc_rainfall,"DHS Geospatial Covariate at cluster location (rainfall), 2015 values for both surveys",171,10
+gc_enhanced_vegetation_index,"DHS Geospatial Covariate at cluster location (enhanced vegetation index), 2015 values for both surveys; 2019 file rescaled from x10,000 to 0-1; 0 treated as missing",212,0
+gc_pet,"DHS Geospatial Covariate at cluster location (pet), 2015 values for both surveys",340,0
+gc_wet_days,"DHS Geospatial Covariate at cluster location (wet days), 2015 values for both surveys",340,0
+gc_land_surface_temperature,"DHS Geospatial Covariate at cluster location (land surface temperature), 2015 values for both surveys",195,0
+gc_day_land_surface_temp,"DHS Geospatial Covariate at cluster location (day land surface temp), 2015 values for both surveys",195,0
+gc_night_land_surface_temp,"DHS Geospatial Covariate at cluster location (night land surface temp), 2015 values for both surveys",195,0
+gc_diurnal_temperature_range,"DHS Geospatial Covariate at cluster location (diurnal temperature range), 2015 values for both surveys",340,0
+gc_un_population_density,"DHS Geospatial Covariate at cluster location (un population density), 2015 values for both surveys",136,0
+gc_global_human_footprint,"DHS Geospatial Covariate at cluster location (global human footprint, static layer)",136,0
+reg_rain_lag1,Regional monthly weather before interview: rain lag1 (rain CHIRPS v3 mm; temp ERA5 C; rh ERA5 %),0,0
+reg_temp_lag1,Regional monthly weather before interview: temp lag1 (rain CHIRPS v3 mm; temp ERA5 C; rh ERA5 %),0,0
+reg_rh_lag1,Regional monthly weather before interview: rh lag1 (rain CHIRPS v3 mm; temp ERA5 C; rh ERA5 %),0,0
+reg_rain_lag2,Regional monthly weather before interview: rain lag2 (rain CHIRPS v3 mm; temp ERA5 C; rh ERA5 %),0,0
+reg_temp_lag2,Regional monthly weather before interview: temp lag2 (rain CHIRPS v3 mm; temp ERA5 C; rh ERA5 %),0,0
+reg_rh_lag2,Regional monthly weather before interview: rh lag2 (rain CHIRPS v3 mm; temp ERA5 C; rh ERA5 %),0,0
+reg_rain_lag3,Regional monthly weather before interview: rain lag3 (rain CHIRPS v3 mm; temp ERA5 C; rh ERA5 %),0,0
+reg_temp_lag3,Regional monthly weather before interview: temp lag3 (rain CHIRPS v3 mm; temp ERA5 C; rh ERA5 %),0,0
+reg_rh_lag3,Regional monthly weather before interview: rh lag3 (rain CHIRPS v3 mm; temp ERA5 C; rh ERA5 %),0,0
+reg_rain_3m,Regional monthly weather before interview: rain 3m (rain CHIRPS v3 mm; temp ERA5 C; rh ERA5 %),0,0
+reg_temp_3m,Regional monthly weather before interview: temp 3m (rain CHIRPS v3 mm; temp ERA5 C; rh ERA5 %),0,0
+reg_rh_3m,Regional monthly weather before interview: rh 3m (rain CHIRPS v3 mm; temp ERA5 C; rh ERA5 %),0,0
+cl_rain_lag1,"Cluster-level weather: rainfall (CHIRPS v3, mm, mean of pixel centres within 2 km urban or 5 km rural of the displaced location; nearest pixel if none), 1 month before interview",136,0
+cl_temp_lag1,"Cluster-level weather: temperature (ERA5 2 m, deg C, at cluster point), 1 month before interview",136,0
+cl_rh_lag1,"Cluster-level weather: relative humidity (ERA5, %, at cluster point), 1 month before interview",136,0
+cl_rain_lag2,"Cluster-level weather: rainfall (CHIRPS v3, mm, mean of pixel centres within 2 km urban or 5 km rural of the displaced location; nearest pixel if none), 2 months before interview",136,0
+cl_temp_lag2,"Cluster-level weather: temperature (ERA5 2 m, deg C, at cluster point), 2 months before interview",136,0
+cl_rh_lag2,"Cluster-level weather: relative humidity (ERA5, %, at cluster point), 2 months before interview",136,0
+cl_rain_lag3,"Cluster-level weather: rainfall (CHIRPS v3, mm, mean of pixel centres within 2 km urban or 5 km rural of the displaced location; nearest pixel if none), 3 months before interview",136,0
+cl_temp_lag3,"Cluster-level weather: temperature (ERA5 2 m, deg C, at cluster point), 3 months before interview",136,0
+cl_rh_lag3,"Cluster-level weather: relative humidity (ERA5, %, at cluster point), 3 months before interview",136,0
+cl_rain_3m,"Cluster-level weather: rainfall (CHIRPS v3, mm, mean of pixel centres within 2 km urban or 5 km rural of the displaced location; nearest pixel if none), previous 3 months (sum for rain, mean otherwise)",136,0
+cl_temp_3m,"Cluster-level weather: temperature (ERA5 2 m, deg C, at cluster point), previous 3 months (sum for rain, mean otherwise)",136,0
+cl_rh_3m,"Cluster-level weather: relative humidity (ERA5, %, at cluster point), previous 3 months (sum for rain, mean otherwise)",136,0
