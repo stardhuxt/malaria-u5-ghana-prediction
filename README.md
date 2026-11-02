@@ -1,4 +1,3 @@
-# malaria-u5-ghana-prediction
 # Machine learning models for early prediction of malaria risk in children under five in Ghana
 
 Analysis code for the paper by Roger Labul (University of Ghana), based on his MSc thesis. Six models (Decision Tree, Logistic Regression,
